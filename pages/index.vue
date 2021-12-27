@@ -20,7 +20,7 @@ head: {
     },
     async fetch() {
       this.videos = await fetch(
-        'http://localhost:5000/videos'
+        'https://unir-streaming.herokuapp.com/videos'
       ).then(res => res.json())
     }
   
