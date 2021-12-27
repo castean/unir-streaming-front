@@ -1,0 +1,16 @@
+[
+  {
+    "name": "player-name",
+    "path": "/player/:name?",
+    "component": "/Users/ttpn_acl/Documents/Ruby/Nuxt-Node-video-streaming-main/frontend/pages/player/_name.vue",
+    "chunkName": "pages/player/_name",
+    "_name": "_26a7f93c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/ttpn_acl/Documents/Ruby/Nuxt-Node-video-streaming-main/frontend/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_17699982"
+  }
+]
