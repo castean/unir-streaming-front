@@ -51,12 +51,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=71a6cad3&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=26ff2653&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Video',{attrs:{"videoList":_vm.videos}})],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=71a6cad3&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=26ff2653&
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./components/Video.vue?vue&type=template&id=f61bc106&scoped=true&
 var Videovue_type_template_id_f61bc106_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div class=\"container\" data-v-f61bc106>","</div>",_vm._l((_vm.videoList),function(video,id){return _vm._ssrNode("<div class=\"vid-con\" data-v-f61bc106>","</div>",[_c('NuxtLink',{attrs:{"to":("/player/" + (video.id))}},[_c('div',{staticClass:"vid",style:({
@@ -151,7 +151,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   },
 
   async fetch() {
-    this.videos = await fetch('http://localhost:5000/videos').then(res => res.json());
+    this.videos = await fetch('https://unir-streaming.herokuapp.com/videos').then(res => res.json());
   }
 
 });
